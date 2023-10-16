@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@apollo/client": "^3.8.5",
@@ -25,5 +27,9 @@
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-kakao-maps-sdk": "^1.1.21"
-  }
+  },
+  "devDependencies": {
+    "gh-pages": "^6.0.0"
+  },
+  "homepage": "https://sbemjr1.github.io/new_ParkingSystem/"
 }

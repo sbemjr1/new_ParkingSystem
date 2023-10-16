@@ -34,10 +34,13 @@ function SmartParkNoticePage() {
       try {
         const dbref = ref(database);
 
-        get(child(dbref, "Customer/")).then((snapshot) => {
+        get(child(dbref, "Notice/")).then((snapshot) => {
           const data = snapshot.val();
-          console.log(Object.keys(data));
-          setData(Object.keys(data));
+          if (!data) {
+            setData("");
+          } else {
+            setData(Object.values(data));
+          }
         });
       } catch (error) {
         console.error("Error fetching data:", error);
