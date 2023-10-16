@@ -11,7 +11,7 @@ export const Wrapper = styled.div`
       rgba(0, 0, 0, 0.4),
       rgba(0, 0, 0, 0.2)
     ),
-    url("/images/bg.jpg");
+    url("images/bg.jpg");
 `;
 
 export const MainWrapper = styled.div`
