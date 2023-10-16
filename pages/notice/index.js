@@ -1,5 +1,5 @@
 import * as S from "../../styles/SmartParkNoticeStyles";
-import firebaseConfig from "../../pages/firebase/firebaseConfig/firebaseConfig";
+import { firebaseConfig } from "../../firebase/firebaseConfig/firebaseConfig";
 import { ref, set, get, child } from "firebase/database";
 import React from "react";
 import { useState, useEffect } from "react";

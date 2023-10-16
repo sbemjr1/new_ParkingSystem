@@ -1,5 +1,5 @@
 import * as S from "../../styles/SmartParkSlotStyles";
-import firebaseConfig from "../../pages/firebase/firebaseConfig/firebaseConfig";
+import { firebaseConfig } from "../../firebase/firebaseConfig/firebaseConfig";
 import { ref, get, child, onValue } from "firebase/database";
 import React, { useState, useEffect } from "react";
 
