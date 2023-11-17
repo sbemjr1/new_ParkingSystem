@@ -22,22 +22,13 @@ export const Logo = styled.div`
   display: flex;
   justify-content: center;
   margin-bottom: 60px;
+`;
+
+export const LogoImg = styled.img`
   border-radius: 50%;
   width: 100px;
   height: 100px;
-  background-image: radial-gradient(
-      rgba(0, 0, 0, 0.6),
-      rgba(0, 0, 0, 0.4),
-      rgba(0, 0, 0, 0.2)
-    ),
-    url("./images/cbnuLogo.png");
 `;
-
-// export const LogoImg = styled.img`
-//   border-radius: 50%;
-//   width: 100px;
-//   height: 100px;
-// `;
 
 export const TitleWrapper = styled.div`
   display: flex;

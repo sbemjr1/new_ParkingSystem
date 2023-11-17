@@ -19,7 +19,9 @@ export default function SmartParkMainPage() {
   return (
     <S.Wrapper>
       <S.MainWrapper>
-        <S.Logo></S.Logo>
+        <S.Logo>
+          <S.LogoImg src="/images/cbnuLogo.png" />
+        </S.Logo>
         <S.TitleWrapper>
           <S.Title>SMART PARKING SYSTEM</S.Title>
           <S.SubTitle>국내 최초 스마트 주차 시스템 캠퍼스</S.SubTitle>
