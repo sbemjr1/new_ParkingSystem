@@ -20,7 +20,7 @@ export default function SmartParkMainPage() {
     <S.Wrapper>
       <S.MainWrapper>
         <S.Logo>
-          <S.LogoImg />
+          <S.LogoImg src="../../public/images/cbnuLogo.png" />
         </S.Logo>
         <S.TitleWrapper>
           <S.Title>SMART PARKING SYSTEM</S.Title>
