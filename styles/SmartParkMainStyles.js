@@ -30,7 +30,7 @@ export const Logo = styled.div`
       rgba(0, 0, 0, 0.4),
       rgba(0, 0, 0, 0.2)
     ),
-    url("images/cbnuLogo.png");
+    url("./images/cbnuLogo.png");
 `;
 
 // export const LogoImg = styled.img`
