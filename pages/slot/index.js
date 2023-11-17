@@ -117,7 +117,7 @@ function SmartParkSlotPage() {
   }, []);
 
   const GoToMain = () => {
-    router.push("/main");
+    router.push("/main", { shallow: true });
   };
 
   return (
