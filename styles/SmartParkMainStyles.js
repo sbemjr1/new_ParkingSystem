@@ -1,8 +1,18 @@
 import styled from "@emotion/styled";
 
 export const Wrapper = styled.div`
+  /* 모바일 스타일 */
+  @media only screen and (max-width: 600px) {
+    font-size: 14px;
+    color: red;
+  }
+
+  /* PC 스타일 */
+  @media only screen and (min-width: 601px) {
+    font-size: 20px;
+  }
   width: 1920px;
-  height: 100vh;
+  height: 940px;
   padding: 0 550px;
   display: flex;
   align-items: center;
