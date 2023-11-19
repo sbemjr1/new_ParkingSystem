@@ -1,5 +1,4 @@
 import * as S from "../../styles/SmartParkLocationStyles";
-import Head from "next/head";
 import { useRouter } from "next/router";
 import React from "react";
 import { useEffect } from "react";

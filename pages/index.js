@@ -1,5 +1,5 @@
 import SmartParkMainPage from "./main";
 
-export default function App({ Component, pageProps }) {
+export default function Home() {
   return <SmartParkMainPage />;
 }

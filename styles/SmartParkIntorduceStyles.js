@@ -54,7 +54,6 @@ export const ContentsWrapper = styled.div`
     height: 75vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
   }
   @media only screen and (min-width: 601px) {
     width: 100%;
@@ -109,99 +108,62 @@ export const GoToMainBtn = styled.button`
   }
 `;
 
-export const ListWrapper = styled.div`
+export const ImgWrapper = styled.div`
+  width: 100%;
+  display: flex;
+`;
+
+export const ImgBox = styled.img`
   @media screen and (max-width: 600px) {
-    width: 100%;
-    color: white;
-    font-size: 16px;
-    font-weight: bold;
-    margin-bottom: 30px;
+    width: 170px;
+    height: 180px;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-bottom: 50px;
   }
   @media only screen and (min-width: 601px) {
-    width: 100%;
-    height: 200px;
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    margin-right: 20px;
+  }
+`;
+
+export const OurInfo = styled.div`
+  @media screen and (max-width: 600px) {
+    color: white;
+    font-size: 12px;
+    padding-top: 5px;
+  }
+  @media only screen and (min-width: 601px) {
     color: white;
     font-size: 20px;
-    font-weight: bold;
-    margin-bottom: 30px;
+    padding-top: 10px;
   }
 `;
 
-export const InputWrapper = styled.div`
+export const InfoHeader = styled.div`
   @media screen and (max-width: 600px) {
-    width: 100%;
-    height: 50vh;
-    display: flex;
-    flex-direction: column;
+    font-weight: 600;
+    :nth-child(3) {
+      margin-bottom: 15px;
+    }
   }
   @media only screen and (min-width: 601px) {
-    width: 100%;
-    height: 250px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    font-weight: 600;
+    :nth-child(3) {
+      margin-bottom: 15px;
+    }
   }
 `;
 
-export const ContentsInput = styled.textarea`
+export const InfoBody = styled.div`
   @media screen and (max-width: 600px) {
-    height: 150px;
-    padding: 7px;
-    border-radius: 5px;
-    background-color: inherit;
-    border: 1px solid gray;
-    color: white;
+    font-size: 10px;
     margin-bottom: 5px;
   }
   @media only screen and (min-width: 601px) {
-    height: 150px;
-    padding: 7px;
-    border-radius: 5px;
-    background-color: inherit;
-    border: 1px solid gray;
-    color: white;
-  }
-`;
-
-export const PhoneInput = styled.input`
-  @media screen and (max-width: 600px) {
-    width: 200px;
-    height: 30px;
-    padding-left: 7px;
-    border-radius: 5px;
-    background-color: inherit;
-    border: 1px solid gray;
-    color: white;
+    font-size: 12px;
     margin-bottom: 5px;
-  }
-  @media only screen and (min-width: 601px) {
-    width: 200px;
-    height: 30px;
-    padding-left: 7px;
-    border-radius: 5px;
-    background-color: inherit;
-    border: 1px solid gray;
-    color: white;
-  }
-`;
-
-export const SubmitBtn = styled.button`
-  @media screen and (max-width: 600px) {
-    width: 150px;
-    height: 40px;
-    border-radius: 5px;
-    font-weight: bold;
-    background-color: gray;
-    color: white;
-    border: 1px solid gray;
-  }
-  @media only screen and (min-width: 601px) {
-    width: 150px;
-    height: 40px;
-    border-radius: 5px;
-    font-weight: bold;
-    background-color: gray;
-    color: white;
-    border: 1px solid gray;
   }
 `;
